@@ -47,7 +47,7 @@ class CrimeFragment : Fragment() {
 
         val titleWatcher = object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {
-                TODO("Not yet implemented")
+
             }
 
             override fun onTextChanged(sequence: CharSequence?, start: Int, before: Int, count: Int) {
@@ -55,7 +55,7 @@ class CrimeFragment : Fragment() {
             }
 
             override fun afterTextChanged(s: Editable?) {
-                TODO("Not yet implemented")
+
             }
         }
         titleField.addTextChangedListener(titleWatcher)
